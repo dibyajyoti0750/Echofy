@@ -1,0 +1,132 @@
+* {
+  font-family: "Lexend Exa", sans-serif;
+  font-size: 0.85rem;
+}
+
+.navbar-toggler {
+  border: none;
+  box-shadow: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+  opacity: 1;
+}
+
+.carousel-inner {
+  border-radius: 1rem;
+}
+
+.price {
+  font-size: 10rem;
+  font-weight: 400;
+}
+
+.heading-two {
+  font-size: 3.2rem;
+}
+
+.desc {
+  font-size: 1rem;
+}
+
+.quantity-selector {
+  display: flex;
+  align-items: center;
+  border: 2px solid #d3d3d3;
+  border-radius: 5px;
+  padding: 0.5rem;
+  background-color: white;
+}
+
+.quantity-button {
+  background-color: transparent;
+  color: #333;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.quantity-button:hover {
+  background-color: #f0f0f0;
+}
+
+.quantity-display {
+  margin: 0 1rem;
+  font-size: 1.25rem;
+}
+
+.order-button {
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem;
+  transition: background-color 0.3s;
+}
+
+.order-button:hover {
+  background-color: #333;
+}
+
+.order-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.product-gallery {
+  display: flex;
+  height: 10rem !important;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.img-one,
+.img-two,
+.img-three {
+  height: 100%;
+  flex: 1;
+  border: none;
+  border-radius: 0.75rem;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+.img-one:hover,
+.img-two:hover,
+.img-three:hover {
+  outline: 3px solid #2874f0;
+  outline-offset: -2px;
+}
+
+.img-one {
+  background-image: url("./assets/img-one.jpg");
+}
+
+.img-two {
+  background-image: url("./assets/img-two.jpg");
+}
+
+.img-three {
+  background-image: url("./assets/img-three.jpg");
+}
+
+.review-section {
+  margin-top: 3rem !important;
+}
+
+footer {
+  background-color: #f4f4f5;
+  margin-top: 5rem !important;
+}
+
+.quick-links a {
+  text-decoration: none;
+}
+
+.quick-links a:hover {
+  color: black !important;
+}
